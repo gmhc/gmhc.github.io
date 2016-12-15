@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana;
+}
+header {
+    padding: 10px;
+}
+header img {
+    width: 100px;
+}
+h1 {
+    display: none;
+}
+nav {
+    float: right;
+    margin-top: 40px;
+}
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav a {
+    padding: 7px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+nav a:hover {
+    background: #eee;
+}
+article {
+    padding: 20px;
+}
