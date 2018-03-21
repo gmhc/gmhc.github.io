@@ -39,9 +39,14 @@ nav a:hover {
 }
 main {
     padding: 20px;
+    max-width: 12in;
 }
 h2 {
     font-size: 80px;
+    margin-bottom: 30px;
+}
+main p {
+    font-size: 30px;
 }
 .typed-cursor {
     color: transparent;
