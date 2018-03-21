@@ -29,18 +29,24 @@ p a {
 }
 p a:hover { border-bottom-color: black; }
 nav {
-    float: right;
-    margin-top: 40px;
+    margin-left: 16px;
 }
 nav li {
     display: inline-block;
     list-style-type: none;
 }
 nav a {
-    padding: 7px 10px;
+    padding: 10px 14px;
+    font-weight: bold;
+    border-radius: 5px;
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
+nav li:nth-child(1) a { background-color: #d01d1d; }
+nav li:nth-child(2) a { background-color: #3286e8; }
+nav li:nth-child(3) a { background-color: #32e8ac; }
+nav li:nth-child(4) a { background-color: #f0d548; }
+
 nav a:hover {
     background: #eee;
 }
