@@ -17,10 +17,17 @@ header {
 }
 header img {
     width: 100px;
+    margin-left: 10px;
 }
 h1 {
     display: none;
 }
+p a {
+    border-bottom: 2px solid #666;
+    color: inherit;
+    text-decoration: none;
+}
+p a:hover { border-bottom-color: black; }
 nav {
     float: right;
     margin-top: 40px;
@@ -47,6 +54,7 @@ h2 {
 }
 main p {
     font-size: 30px;
+    padding-bottom: 15px;
 }
 .typed-cursor {
     color: transparent;
