@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: Verdana;
+    font-family: 'Montserrat', Verdana;
 }
 header {
     padding: 10px;
@@ -33,4 +39,11 @@ nav a:hover {
 }
 main {
     padding: 20px;
+}
+h2 {
+    font-size: 80px;
+}
+.typed-cursor {
+    color: transparent;
+    border-left: solid 3px black;
 }
