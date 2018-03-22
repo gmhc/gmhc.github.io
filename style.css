@@ -13,6 +13,7 @@ body {
     font-family: 'Montserrat', Verdana;
 }
 header {
+    border-top: solid 6px #f00;
     padding: 10px;
 }
 header img {
