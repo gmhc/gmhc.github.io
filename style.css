@@ -43,9 +43,9 @@ nav a {
     text-decoration: none;
     color: white;
 }
-nav li:nth-child(1) a { background-color: #d01d1d; }
+nav li:nth-child(1) a { background-color: #32e8ac; }
 nav li:nth-child(2) a { background-color: #3286e8; }
-nav li:nth-child(3) a { background-color: #32e8ac; }
+nav li:nth-child(3) a { background-color: #f00; }
 nav li:nth-child(4) a { background-color: #f0d548; }
 
 nav a:hover {
